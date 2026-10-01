@@ -11,7 +11,7 @@ export interface List {
     id: number
     title: string
     position: number
-    createdAt: Date
+    createdAt: string
 }
 
 export interface Card {
@@ -19,8 +19,8 @@ export interface Card {
     title: string
     description?: string
     position: number
-    createdAt: Date
-    updatedAt: Date
+    createdAt: string
+    updatedAt: string
 }
 
 export interface Credentials { email: string; password: string }
